@@ -2,6 +2,12 @@
 
 "People vs People" (compare mass) or "Starships vs Starships" (compare crew)
 
+### Drawing cards logic
+
+- check the total number of cards from the first page
+- draw a card for both players (get a random number from 0 to amount of cards - 1, change it to a specific page number and resource index on that page), 
+- to prevent unintended requests on free API -> staleTime Infinity 
+
 ### Cards colors
 
 - as winner (light green background)
